@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 data = pd.read_csv('data/housing.csv')
 
 # Basic exploration
-print(data.head())        # First 5 rows
+print(data.head())        # First 5 rows,,
 print(data.info())        # Data types, missing values
 print(data.describe())    # Stats like mean, min, maxexit()
 
